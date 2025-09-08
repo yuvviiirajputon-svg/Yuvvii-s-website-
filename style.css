@@ -1,0 +1,365 @@
+body {
+  text-align: center;
+  background-color: #f0f0f0;
+  font-family: Arial;
+}
+
+h1 {
+  color: #0088cc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body {
+  text-align: center;
+  background-color: #ffebcd; /* हल्का बेज रंग */
+  font-family: Arial;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 1rem;
+}
+img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#contact {
+  background-color: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-details p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+form {
+  margin-top: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.content h3 {
+    color: #003366;
+}
+
+.content p {
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8;
+  color: #333;
+}
+
+header {
+  background-color: #0055a5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #0055a5;
+}
+
+ul {
+  list-style-type: square;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chapter 2 - Electrostatic Potential & Capacitance</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Physics - Chapter 2: Electrostatic Potential & Capacitance</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="chapter2-electrostatics.html">Chapter 2</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="chapter-intro">
+      <h2>Introduction</h2>
+      <p>
+        Electrostatics deals with the forces, fields, and potentials arising from static electric charges.
+        In this chapter, we study the concept of electrostatic potential and capacitance.
+      </p>
+    </section>
+
+    <section class="key-concepts">
+      <h2>Key Concepts</h2>
+      <ul>
+        <li>Electrostatic Potential (V)</li>
+        <li>Potential due to a Point Charge</li>
+        <li>Equipotential Surfaces</li>
+        <li>Capacitance and Capacitors</li>
+        <li>Parallel Plate Capacitor</li>
+        <li>Effect of Dielectric on Capacitance</li>
+        <li>Energy Stored in a Capacitor</li>
+      </ul>
+    </section>
+
+    <section class="formulas">
+      <h2>Important Formulas</h2>
+      <ul>
+        <li>Electrostatic Potential: \( V = \frac{kQ}{r} \)</li>
+        <li>Capacitance: \( C = \frac{Q}{V} \)</li>
+        <li>Capacitance of parallel plate capacitor: \( C = \frac{\varepsilon_0 A}{d} \)</li>
+        <li>Energy Stored: \( U = \frac{1}{2}CV^2 \)</li>
+        <li>With dielectric: \( C = \frac{K\varepsilon_0 A}{d} \)</li>
+      </ul>
+    </section>
+
+    <section class="diagram">
+      <h2>Capacitor Diagram</h2>
+      <img src="images/capacitor-diagram.png" alt="Capacitor Diagram" width="400">
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Your Physics Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+/* Logo style */
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+header {
+  position: relative;
+  background-color: #0055a5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.chapter-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.img-caption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+.chapter-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.img-caption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+.chapter-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.img-caption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+header {
+  position: relative;
+  background-color: #0055a5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8;
+  color: #333;
+  font-size: 18px; /* Increased from default (16px) */
+  line-height: 1.7;
+}
+
+h1 {
+  font-size: 2.5rem; /* Bigger heading */
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+nav a {
+  font-size: 1.2rem;
+}
+.container {
+  max-width: 1200px; /* wider than default */
+  margin: 0 auto;
+  padding: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+}
